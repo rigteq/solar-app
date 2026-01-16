@@ -20,7 +20,7 @@ export default function Hero() {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 drop-shadow-2xl leading-tight">
                     Pradhan Mantri <span className="text-green-400">Surya Ghar</span>
                     <br />
-                    <span className="text-yellow-400">Mukt Bijli Yojana</span>
+                    <span className="text-yellow-400">Muft Bijli Yojana</span>
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-200 mb-8 font-medium drop-shadow-md max-w-3xl mx-auto leading-relaxed">

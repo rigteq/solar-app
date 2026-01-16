@@ -25,15 +25,14 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-lg py-2" : "bg-transparent py-4"
-      }`}
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-md shadow-lg py-2" : "bg-transparent py-4"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0 flex items-center gap-2">
             <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white rounded-full p-1 overflow-hidden shadow-sm">
-             <Image
+              <Image
                 src="/images/logo.png"
                 alt="Radhe Raj Enterprises"
                 fill
@@ -41,7 +40,7 @@ export default function Navbar() {
               />
             </div>
             <div className={`font-bold text-xl md:text-2xl tracking-tighter ${scrolled ? 'text-green-800' : 'text-green-900 drop-shadow-md'}`}>
-              RADHE RAJ <span className="text-orange-500">ENTERPRISES</span>
+              <span className="text-orange-500"> RADHE RAJ </span> ENTERPRISES
             </div>
           </div>
           <div className="hidden md:block">
@@ -50,11 +49,10 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                    scrolled
-                      ? "text-gray-900 hover:text-green-600"
-                      : "text-gray-900 hover:text-white bg-white/50 hover:bg-green-600/80"
-                  }`}
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${scrolled
+                    ? "text-gray-900 hover:text-green-600"
+                    : "text-gray-900 hover:text-white bg-white/50 hover:bg-green-600/80"
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -112,13 +110,13 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-           <a
-                href="#contact"
-                className="w-full text-center block bg-orange-500 text-white px-5 py-3 rounded-lg font-bold mt-4"
-                onClick={() => setIsOpen(false)}
-              >
-                Order / Enquiry Now
-              </a>
+          <a
+            href="#contact"
+            className="w-full text-center block bg-orange-500 text-white px-5 py-3 rounded-lg font-bold mt-4"
+            onClick={() => setIsOpen(false)}
+          >
+            Order / Enquiry Now
+          </a>
         </div>
       </div>
     </nav>

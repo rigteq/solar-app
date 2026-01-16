@@ -14,7 +14,7 @@ export default function About() {
                             About <span className="text-green-600">Radhe Raj Enterprises</span>
                         </h2>
                         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                            We are a premier solar energy solutions provider based in <strong>Gajraula</strong>, dedicated to empowering homes and businesses with clean, renewable energy. Under the visionary leadership of <strong>Hemandra Gautam</strong>, we have been successfully implementing the <strong>Pradhan Mantri Surya Ghar Mukt Bijli Yojna</strong>.
+                            We are a premier solar energy solutions provider based in <strong>Gajraula</strong>, dedicated to empowering homes and businesses with clean, renewable energy. Under the visionary leadership of <strong>Hemandra Gautam</strong>, we have been successfully implementing the <strong>Pradhan Mantri Surya Ghar Muft Bijli Yojna</strong>.
                         </p>
                         <p className="text-lg text-gray-700 mb-8 leading-relaxed italic border-l-4 border-orange-500 pl-4 bg-orange-50 py-4 rounded-r-xl">
                             "Our mission is simple: <strong>Solar Panel Lagwaye, Bijli Bachaye</strong>. We ensure that every customer gets the maximum benefit of government subsidies, with guaranteed quality and professional installation."

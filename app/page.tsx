@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Popup from "./components/Popup";
 import SocialStickers from "./components/SocialStickers";
+import HappyCustomers from "./components/HappyCustomers";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <Features />
       <About />
       <Services />
+      <HappyCustomers />
       <Gallery />
       <Contact />
       <Footer />

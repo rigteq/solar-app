@@ -34,13 +34,24 @@ export default function Popup() {
 
                 <div className="p-8">
                     <h4 className="text-xl font-semibold text-center text-gray-800 mb-6">Get <span className="text-green-600 font-bold">₹1,08,000</span> Subsidy Information</h4>
-                    <div className="space-y-4">
-                        <input type="text" placeholder="Your Name" className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-green-500 outline-none" />
-                        <input type="tel" placeholder="Mobile Number" className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-green-500 outline-none" />
-                        <button className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg shadow-lg">
+                    <form onSubmit={(e) => {
+                        e.preventDefault();
+                        const btn = e.currentTarget.querySelector('button');
+                        if (btn) {
+                            btn.innerText = 'Processing...';
+                            btn.disabled = true;
+                        }
+                        setTimeout(() => {
+                            alert("Thank you! Our team will contact you shortly.");
+                            setShow(false);
+                        }, 1500);
+                    }} className="space-y-4">
+                        <input required type="text" placeholder="Your Name" className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-green-500 outline-none" />
+                        <input required type="tel" pattern="[0-9]{10}" placeholder="Mobile Number" className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-green-500 outline-none" />
+                        <button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg shadow-lg disabled:opacity-75 disabled:cursor-not-allowed transition-all">
                             Check Eligibility Now
                         </button>
-                    </div>
+                    </form>
                     <p className="text-xs text-center text-gray-400 mt-4">100% Privacy Guaranteed.</p>
                 </div>
             </div>

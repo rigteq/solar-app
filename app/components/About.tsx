@@ -36,11 +36,10 @@ export default function About() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="relative h-80 rounded-2xl overflow-hidden shadow-2xl group border-4 border-white">
                                 <Image
-                                    src="https://media.assettype.com/freepressjournal/2025-10-31/9l42sqkj/Copy-of-Queen-Of-All-Mayhem-2025-10-31T235420.950.jpg"
+                                    src="/images/modi.png"
                                     alt="PM Narendra Modi Solar Mission"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
-                                    unoptimized
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4">
                                     <span className="text-white font-bold text-sm">National Vision: PM Modi</span>

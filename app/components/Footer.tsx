@@ -45,19 +45,19 @@ export default function Footer() {
                         <ul className="space-y-4 text-gray-400">
                            <li className="flex items-start gap-3">
                                 <span className="text-green-500 mt-1">📍</span>
-                                <span>Radhe Raj Enterprises,<br />Gajraula, Uttar Pradesh</span>
+                                <span>Gajraula, Uttar Pradesh</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-green-500 mt-1">📍</span>
-                                <span>Radhey Raj Enterprises Gayatri Nagar Khair Bypass Aligarh 202001.</span>
+                                <span>Gayatri Nagar Khair Bypass Aligarh 202001.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-green-500 mt-1">📍</span>
-                                <span>Radhey Raj Enterprises Near Pagal Baba Mandir Vrindavan Mathura 281001.</span>
+                                <span>Near Pagal Baba Mandir Vrindavan Mathura 281001.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-green-500 mt-1">📍</span>
-                                <span>Radhey Raj Enterprises Karamchari Nagar Road Bareilly 243122.</span>
+                                <span>Karamchari Nagar Road Bareilly 243122.</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-green-500">📞</span>

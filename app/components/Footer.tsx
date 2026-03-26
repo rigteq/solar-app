@@ -43,6 +43,10 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-bold mb-6 border-b border-gray-700 pb-2 inline-block">Contact Info</h3>
                         <ul className="space-y-4 text-gray-400">
+                           <li className="flex items-start gap-3">
+                                <span className="text-green-500 mt-1">📍</span>
+                                <span>Radhe Raj Enterprises,<br />Gajraula, Uttar Pradesh</span>
+                            </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-green-500 mt-1">📍</span>
                                 <span>Radhey Raj Enterprises Gayatri Nagar Khair Bypass Aligarh 202001.</span>

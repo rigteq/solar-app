@@ -34,13 +34,13 @@ export default function Navbar() {
             <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white rounded-full p-1 overflow-hidden shadow-sm">
               <Image
                 src="/images/logo.png"
-                alt="Radhe Raj Enterprises"
+                alt="Radhey Raj Enterprises"
                 fill
                 className="object-contain"
               />
             </div>
-            <div className={`font-bold text-xl md:text-2xl tracking-tighter ${scrolled ? 'text-green-800' : 'text-green-900 drop-shadow-md'}`}>
-              <span className="text-orange-500"> RADHE RAJ </span> ENTERPRISES
+            <div className={`font-bold text-xl md:text-2xl tracking-tighter ${scrolled ? 'text-green-700' : 'text-green-700 drop-shadow-md'}`}>
+              <span className="text-orange-500"> RADHEY RAJ </span> ENTERPRISES
             </div>
           </div>
           <div className="hidden md:block">

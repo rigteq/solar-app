@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Radhe Raj Enterprises | Solar Energy Solutions Gajraula",
+  title: "Radhey Raj Enterprises | Solar Energy Solutions Gajraula",
   description: "Official partner for PM Surya Ghar Muft Bijli Yojana. Solar Panel Lagwaye, Bijli Bachaye! Get up to ₹1,08,000 subsidy. Contact Hemandra Gautam: +91 9410297051",
-  keywords: "Solar Panel, PM Surya Ghar, Subsidy, Gajraula, Radhe Raj Enterprises, Clean Energy, Solar Subsidy",
+  keywords: "Solar Panel, PM Surya Ghar, Subsidy, Gajraula, Radhey Raj Enterprises, Clean Energy, Solar Subsidy",
 };
 
 export default function RootLayout({

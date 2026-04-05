@@ -24,7 +24,7 @@ export default function Hero() {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-200 mb-8 font-medium drop-shadow-md max-w-3xl mx-auto leading-relaxed">
-                    Brighten your home with the power of the Sun. Get the maximum subsidy in Gajraula through <strong>Radhe Raj Enterprises</strong>.
+                    Brighten your home with the power of the Sun. Get the maximum subsidy in Gajraula through <strong>Radhey Raj Enterprises</strong>.
                     <br />
                     <span className="text-yellow-300 font-bold mt-6 block text-2xl md:text-5xl bg-white/10 p-4 md:p-6 rounded-2xl backdrop-blur-md border border-white/20 shadow-inner">
                         Subsidy: ₹1,08,000/-

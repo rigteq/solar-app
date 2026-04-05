@@ -11,12 +11,12 @@ export default function Footer() {
                             <div className="relative w-10 h-10 bg-white rounded-full p-1">
                                 <Image
                                     src="/images/logo.png"
-                                    alt="Radhe Raj Enterprises"
+                                    alt="Radhey Raj Enterprises"
                                     fill
                                     className="object-contain"
                                 />
                             </div>
-                            <span className="font-bold text-xl uppercase tracking-wider">Radhe Raj Enterprises</span>
+                            <span className="font-bold text-xl uppercase tracking-wider">Radhey Raj Enterprises</span>
                         </div>
                         <p className="text-gray-400 mb-6 leading-relaxed">
                             Your trusted partner form Solar Energy Solutions in Gajraula. Authorized implementation partner for government solar schemes.
@@ -76,7 +76,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-                    <p>© {new Date().getFullYear()} Radhe Raj Enterprises. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Radhey Raj Enterprises. All rights reserved.</p>
                 </div>
             </div>
         </footer>

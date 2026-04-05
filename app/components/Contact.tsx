@@ -31,7 +31,7 @@ export default function Contact() {
                     <h2 className="text-4xl md:text-5xl font-black text-gray-900 mt-2 mb-4">Contact Us / Order Now</h2>
                     <div className="h-1.5 w-24 bg-orange-500 mx-auto rounded-full mb-6" />
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        Ready to switch to clean energy? Fill out the form below and our experts from <strong>Radhe Raj Enterprises</strong> will reach out.
+                        Ready to switch to clean energy? Fill out the form below and our experts from <strong>Radhey Raj Enterprises</strong> will reach out.
                     </p>
                 </div>
 

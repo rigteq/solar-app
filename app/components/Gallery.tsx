@@ -6,7 +6,7 @@ export default function Gallery() {
         { src: "/images/hero.png", alt: "Solar Home Installation" },
         { src: "/images/family.png", alt: "Happy Family with Solar" },
         { src: "/images/technician.png", alt: "Professional Installation" },
-        { src: "/images/logo.png", alt: "Our Brand" },
+        { src: "/images/Solar energy solutions logo design.png", alt: "Our Brand" },
     ];
 
     return (

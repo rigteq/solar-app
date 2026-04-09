@@ -35,7 +35,7 @@ export default function Features() {
                             </div>
                             <div className="flex justify-between items-center border-b border-white/20 pb-2">
                                 <span>2 kW System</span>
-                                <span className="font-bold text-yellow-300">₹60,000 Subsidy</span>
+                                <span className="font-bold text-yellow-300">₹90,000 Subsidy</span>
                             </div>
                             <div className="flex justify-between items-center border-b border-white/20 pb-2">
                                 <span>3 kW System</span>

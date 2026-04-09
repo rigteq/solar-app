@@ -10,12 +10,12 @@ export default function Contact() {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulation of sending email to ops@rigteq.com
+        // Simulation of sending email to radheyrajenterprise@gmail.com
         setTimeout(() => {
             setIsSubmitting(false);
             setSubmitted(true);
             // Actual email sending logic would involve a POST request to a backend API
-            console.log("Form submitted. Notification sent to ops@rigteq.com");
+            console.log("Form submitted. Notification sent to radheyrajenterprise@gmail.com");
         }, 2000);
     };
 
@@ -43,7 +43,7 @@ export default function Contact() {
                                     <svg className="w-12 h-12 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" /></svg>
                                 </div>
                                 <h3 className="text-3xl font-black text-green-800 mb-4">Success!</h3>
-                                <p className="text-xl text-gray-600 mb-8 lowercase">Your enquiry has been successfully sent to <span className="font-bold text-gray-900">ops@rigteq.com</span></p>
+                                <p className="text-xl text-gray-600 mb-8 lowercase">Your enquiry has been successfully sent to <span className="font-bold text-gray-900">radheyrajenterprise@gmail.com</span></p>
                                 <p className="text-gray-500 italic">Our team will call you within 24 hours.</p>
                                 <button
                                     onClick={() => setSubmitted(false)}
@@ -103,7 +103,7 @@ export default function Contact() {
                                     )}
                                 </button>
                                 <p className="text-sm text-center text-gray-500 mt-6 px-10">
-                                    Official implementation partner. Your data is secure and will be sent to the operations team at <span className="text-gray-900 font-semibold">ops@rigteq.com</span> for processing.
+                                    Official implementation partner. Your data is secure and will be sent to the operations team at <span className="text-gray-900 font-semibold">radheyrajenterprise@gmail.com</span> for processing.
                                 </p>
                             </form>
                         )}
@@ -149,7 +149,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Email</p>
-                                        <a href="mailto:ops@rigteq.com" className="text-xl font-bold text-gray-800 hover:text-green-600 transition-colors">ops@rigteq.com</a>
+                                        <a href="mailto:radheyrajenterprise@gmail.com" className="text-xl font-bold text-gray-800 hover:text-green-600 transition-colors">radheyrajenterprise@gmail.com</a>
                                     </div>
                                 </div>
 

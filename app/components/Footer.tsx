@@ -65,7 +65,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-green-500">✉️</span>
-                                <a href="mailto:ops@rigteq.com" className="hover:text-white">ops@rigteq.com</a>
+                                <a href="mailto:radheyrajenterprise@gmail.com" className="hover:text-white">radheyrajenterprise@gmail.com</a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-green-500">🆔</span>

@@ -11,12 +11,12 @@ export default function Footer() {
                             <div className="relative w-10 h-10 bg-white rounded-full p-1">
                                 <Image
                                     src="/images/logo.png"
-                                    alt="Radhe Raj Enterprises"
+                                    alt="Radhey Raj Enterprises"
                                     fill
                                     className="object-contain"
                                 />
                             </div>
-                            <span className="font-bold text-xl uppercase tracking-wider">Radhe Raj Enterprises</span>
+                            <span className="font-bold text-xl uppercase tracking-wider">Radhey Raj Enterprises</span>
                         </div>
                         <p className="text-gray-400 mb-6 leading-relaxed">
                             Your trusted partner form Solar Energy Solutions in Gajraula. Authorized implementation partner for government solar schemes.
@@ -43,9 +43,21 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-bold mb-6 border-b border-gray-700 pb-2 inline-block">Contact Info</h3>
                         <ul className="space-y-4 text-gray-400">
+                           <li className="flex items-start gap-3">
+                                <span className="text-green-500 mt-1">📍</span>
+                                <span>Gajraula, Uttar Pradesh</span>
+                            </li>
                             <li className="flex items-start gap-3">
                                 <span className="text-green-500 mt-1">📍</span>
-                                <span>Radhe Raj Enterprises,<br />Gajraula, Uttar Pradesh</span>
+                                <span>Gayatri Nagar Khair Bypass Aligarh 202001.</span>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <span className="text-green-500 mt-1">📍</span>
+                                <span>Near Pagal Baba Mandir Vrindavan Mathura 281001.</span>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <span className="text-green-500 mt-1">📍</span>
+                                <span>Karamchari Nagar Road Bareilly 243122.</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-green-500">📞</span>
@@ -53,7 +65,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-green-500">✉️</span>
-                                <a href="mailto:ops@rigteq.com" className="hover:text-white">ops@rigteq.com</a>
+                                <a href="mailto:radheyrajenterprise@gmail.com" className="hover:text-white">radheyrajenterprise@gmail.com</a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-green-500">🆔</span>
@@ -64,7 +76,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-                    <p>© {new Date().getFullYear()} Radhe Raj Enterprises. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Radhey Raj Enterprises. All rights reserved.</p>
                 </div>
             </div>
         </footer>

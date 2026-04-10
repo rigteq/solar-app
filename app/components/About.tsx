@@ -11,7 +11,7 @@ export default function About() {
                             AUTHORIZED PARTNER
                         </div>
                         <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-                            About <span className="text-green-600">Radhe Raj Enterprises</span>
+                            About <span className="text-green-600">Radhey Raj Enterprises</span>
                         </h2>
                         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                             We are a premier solar energy solutions provider based in <strong>Gajraula</strong>, dedicated to empowering homes and businesses with clean, renewable energy. Under the visionary leadership of <strong>Hemandra Gautam</strong>, we have been successfully implementing the <strong>Pradhan Mantri Surya Ghar Muft Bijli Yojna</strong>.

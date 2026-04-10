@@ -25,8 +25,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-md shadow-lg py-2" : "bg-transparent py-4"
-        }`}
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white backdrop-blur-md shadow-lg py-2" : "bg-white/80 backdrop-blur-md py-4"}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -34,13 +33,13 @@ export default function Navbar() {
             <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white rounded-full p-1 overflow-hidden shadow-sm">
               <Image
                 src="/images/logo.png"
-                alt="Radhe Raj Enterprises"
+                alt="Radhey Raj Enterprises"
                 fill
                 className="object-contain"
               />
             </div>
-            <div className={`font-bold text-xl md:text-2xl tracking-tighter ${scrolled ? 'text-green-800' : 'text-green-900 drop-shadow-md'}`}>
-              <span className="text-orange-500"> RADHE RAJ </span> ENTERPRISES
+            <div className={`font-bold text-xl md:text-2xl tracking-tighter ${scrolled ? 'text-green-700' : 'text-green-700 drop-shadow-md'}`}>
+              <span className="text-orange-500"> RADHEY RAJ </span> ENTERPRISES
             </div>
           </div>
           <div className="hidden md:block">
